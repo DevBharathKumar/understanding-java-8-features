@@ -12,10 +12,10 @@ public class CollectorsExample
 	{
 		List<Item> menu = new ArrayList<>();
 		
-		menu.add(new Item(1, "Dosa", 40.0));
-		menu.add(new Item(2, "Paper roast", 60.0));
-		menu.add(new Item(3, "Idly", 12.0));
-		menu.add(new Item(4, "Vada", 12.0));
+		menu.add(new Item(1, "Dosa", 40.0, "Breakfast"));
+		menu.add(new Item(2, "Paper roast", 60.0, "Breakfast"));
+		menu.add(new Item(3, "Idly", 12.0, "Breakfast"));
+		menu.add(new Item(4, "Vada", 12.0, "Breakfast"));
 		
 		List<Double> itemPrices = menu.stream()
 				.map(Item::getPrice)
