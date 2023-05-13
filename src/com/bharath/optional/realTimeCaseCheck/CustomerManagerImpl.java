@@ -12,9 +12,9 @@ public class CustomerManagerImpl
 		}
 		
 		if (custId == 1) {
-			cus = new Customer(null);
+			cus = new Customer(null,null);
 		} else if (custId == 2) {
-			cus = new Customer("Bharath");
+			cus = new Customer("Bharath",28.8);
 		}
 		
 		return cus;
