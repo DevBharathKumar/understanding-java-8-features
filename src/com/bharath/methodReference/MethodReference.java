@@ -12,7 +12,7 @@ public class MethodReference {
 	}
 	
 	public static void tryMe() {
-		System.out.println("Hello World - Method return type and parameters only matter. Method name does not matter ");
+		System.out.println("Hi World");
 	}
 	
 	public static int add(int a, int b) {
