@@ -25,7 +25,7 @@ public class MethodReference {
 		
 	public static void main(String [] args)
 	{
-		System.out.println("----------------- STATIC EXAMPLES -----------------");
+		System.out.println("----------------- STATIC EXAMPLES ------------------");
 		
 		HelloWorld hello1 = MethodReference::print;
 		hello1.print();
